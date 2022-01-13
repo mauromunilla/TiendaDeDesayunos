@@ -1,0 +1,211 @@
+body{
+	height: 100%;
+	width: 100%;
+}
+
+.menu{
+	background-color: #5BC8AC;
+	height: 25px;
+	padding-bottom: -20;
+}
+
+@media only screen and (max-width: 550px) { .menu { width:103%; } } 
+
+#lista {
+	padding: 0px;
+	padding-bottom: 25px;
+}
+
+#lista li {
+	display: inline;
+} 
+
+#lista li a {
+	font-family: Courier;
+	font-size: 15px;
+	text-decoration: none;
+	float: right;
+	padding: 20px;
+	background-color: #98DBC6;
+	color: #fff;
+}
+
+#lista li a:hover {
+	background-color: #5BC8AC;
+	margin-top: 8;
+	padding-bottom: -12px;
+}
+ 
+.arriba{
+	height: 365px;
+	background-image: url("baner.jpg")
+}
+
+@media only screen and (max-width: 600px) { .arriba { background-image: url("imagenes/baner.jpg"); background-repeat: no-repeat; background-position: center; margin-top: 30px; 
+	
+	background-color: #F4CC70;
+	
+	} } 
+
+.centro{
+	margin-top: -5px;
+	box-shadow: 7px 13px 37px #000;
+	height: auto;
+}
+
+.izq{
+	height: 451px;
+	padding-left: 800px;
+	text-align: center;
+	background-color: #F4CC70;
+	border: 5px #98DBC6 solid;
+	padding-top: 20px;
+	font-family: courier;
+	width: 100%;
+}
+
+@media only screen and (max-width: 767px) { .der { display:none;} }  
+@media only screen and (max-width: 767px) { .med { display:none;} }  
+@media only screen and (max-width: 1350px) { .segundo { display:none;} }  
+@media only screen and (max-width: 1350px) { .tercero { display:none;} }  
+  
+@media only screen and (max-width: 1110px) { .primero h5{ display: none;} }  
+@media only screen and (max-width: 1110px) { .primero h4{ margin-bottom: 50px;} }  
+
+@media only screen and (max-width: 767px) { .primero h5{ display: block} }  
+@media only screen and (max-width: 770px) { .primero h4{ margin-bottom: -10px; } }  
+
+.primero{
+	float: left;
+	position-relative: 100px 30px;
+	padding-top: 15px;
+	padding-left: 60px;
+	font-family: ms dialog;
+}
+
+.primero h4{
+	font-size: 40px;
+	color: #DE7A22;
+	position: relative;
+	left: 60px;
+	box-shadow: 7px 13px 37px #8D230F;
+	margin-bottom: 15px;
+}
+
+h4:hover{
+	background-color: #A2C523;
+}
+
+.primero h5{
+	font-size:30px;
+	color: #1E434C;
+	font-family: Courier;
+	position: relative;
+	left: -40px;
+	box-shadow: 7px 13px 37px #000;
+	margin-bottom: 15px;
+}
+
+h5:hover{
+	background-color: #A2C523;
+}
+
+.segundo{
+	float:right;
+	padding-top: 15px;
+}
+
+.segundo a:hover{
+	filter: invert(10%);
+}
+
+.tercero{
+	float: bottom;
+}
+
+.tercero:hover{
+	filter:saturate(15%);
+	padding-left: 5;
+}
+	
+.med{
+	height: 451px;
+	background-image: url("imagenes/10.jpg");
+	background-size: 253px 150px;
+	border: 5px #98DBC6 solid;
+	border-right: 3px #98DBC6 solid;
+	border-left: 3px #98DBC6 solid;
+}
+
+.der{
+	height: 451px;
+	background-image: url("imagenes/02.jpg");
+	background-size: 230px 150px;
+	border: 5px #98DBC6 solid;
+	border-left: 3px #98DBC6 solid;
+}
+
+footer{
+	color: white;
+    background-color: #F98866;
+    width: 101%;
+    height: 100px;
+    justify-content: bottom;
+	text-align: center;
+	padding-top: 15px;
+}
+
+@media only screen and (max-width: 800px) { .foopri { width: 103%;} }  
+
+.gradiente{
+	background: linear-gradient(to bottom, #6FB98F, #2C7872, #004445);
+	height: 100%;
+	width: 101%;
+	text-align: center;
+	padding: 50px;
+	margin-top: -12px;
+	box-shadow: 7px 13px 37px #000;
+	border: 5px #98DBC6 solid;
+	max-width: 1535px;
+	max-height: 340px;
+}
+
+.gradiente2{
+	background: linear-gradient(to bottom, #6FB98F, #2C7872, #004445);
+	height: 100%;
+	width: 101%;
+	text-align: center;
+	padding: 50px;
+	margin-top: -22px;
+	box-shadow: 7px 13px 37px #000;
+	border: 5px #98DBC6 solid;
+	max-width: 1535px;
+	max-height: 340px;
+}
+
+@media only screen and (max-width: 1525px) { .sacar { display: none; } } 
+
+@media only screen and (max-width: 600px) { .gradiente { padding: 30px;} }  
+
+input{
+	border: 3px solid #1F53C5;
+	font-family: 'calibri';
+	box-shadow: 7px 13px 37px #000;
+	padding-right: 15px;
+	margin-right: 5px;
+}
+
+select{
+	border: 3px solid #1F53C5;
+	font-family: 'calibri';
+	box-shadow: 7px 13px 37px #000;
+	padding-right: 15px;
+}
+
+textarea{
+	border: 3px solid #1F53C5;
+	font-family: 'calibri';
+	box-shadow: 7px 13px 37px #000;
+	position: relative;
+	bottom: -15px;
+}
